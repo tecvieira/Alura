@@ -1,8 +1,46 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #000000;
     color: #F6F6F6;
 }
 
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+h1{
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
 strong{
     color: #22D4FD;
 }
+
+p{
+    padding: 20px;
+
+}
+
+main > a{
+    display: block;
+    text-align: center;
+    padding: 40px;  
+}
+
+main > div{
+    display: block;
+    text-align: center;
+}
+
+

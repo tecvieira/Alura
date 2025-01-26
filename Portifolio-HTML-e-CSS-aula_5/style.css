@@ -11,36 +11,44 @@ body{
     color: #F6F6F6;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
-}
 
 
 h1{
-    padding: 20px;
-    width: 600px;
+    padding: 20px;   
     text-align: center;
 }
 
 strong{
-    color: #22D4FD;
+    color: rgb(34, 212, 253);
 }
 
 p{
     padding: 20px;
-
-}
-
-main > a{
-    display: block;
     text-align: center;
-    padding: 40px;  
 }
 
 main > div{
     display: block;
     text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer > a{
+    margin: 20px;
+    background-color: rgb(34, 212, 253);
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer > a:hover{
+    color: red;
 }
 
 
